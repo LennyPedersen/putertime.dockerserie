@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  first_application:
-    image: nginxdemos/hello
-    ports:
-      - 80:80
-      - 443:443
-    restart: unless-stopped
